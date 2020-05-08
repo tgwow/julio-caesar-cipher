@@ -1,0 +1,43 @@
+{
+  "name": "backend-julio-caesar-crypt",
+  "version": "1.0.0",
+  "description": "This app implements the Caeser cipher given a data from an api.",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "npm run lint && DEBUG=app,app:* nodemon ./src/app.js",
+    "lint": "eslint ./src/app.js",
+    "fix": "./node_modules/.bin/eslint ./src/app.js --fix"
+  },
+  "keywords": [
+    "caeser",
+    "cipher",
+    "cryptography",
+    "encode",
+    "decode"
+  ],
+  "author": "Thiago Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.3",
+    "sha1": "^1.1.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*",
+      "/data/*"
+    ],
+    "delay": 2500
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
