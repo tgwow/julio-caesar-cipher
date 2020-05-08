@@ -1,0 +1,17 @@
+{
+  "name": "api-julio-caesar-crypt",
+  "version": "1.0.0",
+  "description": "This api provides the data to be crypted ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
