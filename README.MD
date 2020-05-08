@@ -14,7 +14,7 @@ Cifrado: 1d.d
 
 Escrever programa, em qualquer linguagem de programação, que faça uma requisição HTTP para a url abaixo:
 
-> https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=SEU_TOKEN
+``https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=SEU_TOKEN``
 
 Para encontrar o seu token , acesse a plataforma Codenation, faça o login e a informação estará na tela, conforme no exemplo abaixo:
 
@@ -34,7 +34,7 @@ Você deve usar o número de casas para decifrar o texto e atualizar o arquivo J
 
 Seu programa deve submeter o arquivo atualizado para correção via POST para a API:
 
-> https:/api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=SEU_TOKEN
+``https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=SEU_TOKEN``
 
 OBS: a API espera um arquivo sendo enviado como multipart/form-data, como se fosse enviado por um formulário HTML, com um campo do tipo file com o nome answer. Considere isso ao enviar o arquivo.
 
