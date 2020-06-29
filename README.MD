@@ -63,7 +63,7 @@ OS X & Linux
 
 1. Navigate to backend folder and install dependencies
 
-`cd .. ` 
+```cd .. ``` 
 
 `cd backend && npm install`
 
