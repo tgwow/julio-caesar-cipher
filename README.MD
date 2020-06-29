@@ -76,7 +76,7 @@ cd backend
 npm install
 ```
 
-2. run backend in locahost
+2. Run backend in locahost
 
 ```sh
 npm start
