@@ -1,6 +1,8 @@
 # Criptografia de Júlio César
 > Resolução do desafio para codenation
 
+![](https://media.giphy.com/media/MafXS7jDT1Gzqz2lNf/giphy.gif)
+
 ## O que é a criptografia de Júlio César?
 Segundo o Wikipedia, criptografia ou criptologia (em grego: kryptós, “escondido”, e gráphein, “escrita”) é o estudo e prática de princípios e técnicas para comunicação segura na presença de terceiros, chamados “adversários”. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais à criptografia moderna. Das Criptografias mais curiosas na história da humanidade podemos citar a criptografia utilizada pelo grande líder militar romano Júlio César para comunicar com os seus generais. Essa criptografia se baseia na substituição da letra do alfabeto avançado um determinado número de casas. Por exemplo, considerando o número de casas = 3:
 
@@ -71,7 +73,6 @@ npm start
 1. Navigate to backend folder and install dependencies
 
 ```sh
-cd ..
 cd backend
 npm install
 ```
