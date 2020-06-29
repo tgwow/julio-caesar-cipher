@@ -43,21 +43,28 @@ OBS: a API espera um arquivo sendo enviado como multipart/form-data, como se fos
 
 ## Installation
 
-OS X & Linux
+OS X & Linux:
 
 ### API
 
 1. Clone this [repo](https://github.com/tgwow/julio-caesar-cipher.git) in your machine
 
-`git clone https://github.com/tgwow/julio-caesar-cipher.git`
+```sh
+git clone https://github.com/tgwow/julio-caesar-cipher.git
+```
 
 2. Navigate to api folder and install dependencies
 
-`cd api && npm install`
+```sh
+cd api
+npm install
+```
 
 3. Run api in locahost
 
-`npm start`
+```sh
+npm start
+```
 
 ### Backend
 
@@ -65,13 +72,15 @@ OS X & Linux
 
 ```sh
 cd ..
-``` 
-
-`cd backend && npm install`
+cd backend
+npm install
+```
 
 2. run backend in locahost
 
-`npm start`
+```sh
+npm start
+```
 
 ## How to use
 
