@@ -1,16 +1,19 @@
-Criptografia de Júlio César
-Resolução do desafio para codenation:
+# Criptografia de Júlio César
+> Resolução do desafio para codenation
 
-Segundo o Wikipedia, criptografia ou criptologia (em grego: kryptós, “escondido”, e gráphein, “escrita”) é o estudo e prática de princípios e técnicas para comunicação segura na presença de terceiros, chamados “adversários”. Mas geralmente, a criptografia refere-se à construção e análise de protocolos que impedem terceiros, ou o público, de lerem mensagens privadas. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais à criptografia moderna. Aplicações de criptografia incluem comércio eletrônico, cartões de pagamento baseados em chip, moedas digitais, senhas de computadores e comunicações militares. Das Criptografias mais curiosas na história da humanidade podemos citar a criptografia utilizada pelo grande líder militar romano Júlio César para comunicar com os seus generais. Essa criptografia se baseia na substituição da letra do alfabeto avançado um determinado número de casas. Por exemplo, considerando o número de casas = 3:
+## What's Julio Caesar Cypher?
+Segundo o Wikipedia, criptografia ou criptologia (em grego: kryptós, “escondido”, e gráphein, “escrita”) é o estudo e prática de princípios e técnicas para comunicação segura na presença de terceiros, chamados “adversários”. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais à criptografia moderna. Das Criptografias mais curiosas na história da humanidade podemos citar a criptografia utilizada pelo grande líder militar romano Júlio César para comunicar com os seus generais. Essa criptografia se baseia na substituição da letra do alfabeto avançado um determinado número de casas. Por exemplo, considerando o número de casas = 3:
 
-Normal: a ligeira raposa marrom saltou sobre o cachorro cansado
+**Normal:** a ligeira raposa marrom saltou sobre o cachorro cansado
 
-Cifrado: d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
+**Cifrado:** d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
 
-Regras
-As mensagens serão convertidas para minúsculas tanto para a criptografia quanto para descriptografia. No nosso caso os números e pontos serão mantidos, ou seja: Normal: 1a.a
+## Regras
+As mensagens serão convertidas para minúsculas tanto para a criptografia quanto para descriptografia. No nosso caso os números e pontos serão mantidos, ou seja: 
 
-Cifrado: 1d.d
+**Normal:** 1a.a
+
+**Cifrado:** 1d.d
 
 Escrever programa, em qualquer linguagem de programação, que faça uma requisição HTTP para a url abaixo:
 
@@ -38,7 +41,39 @@ Seu programa deve submeter o arquivo atualizado para correção via POST para a 
 
 OBS: a API espera um arquivo sendo enviado como multipart/form-data, como se fosse enviado por um formulário HTML, com um campo do tipo file com o nome answer. Considere isso ao enviar o arquivo.
 
-O resultado da submissão vai ser sua nota ou o erro correspondente. Você pode submeter quantas vezes achar necessário, mas a API não vai permitir mais de uma submissão por minuto.
+## Installation
 
-OBS
-Neste estágio da aceleração não solicitamos que você nos envie o código do programa que você criou, mas recomendamos que você guarde uma cópia pois o mesmo pode ser solicitado nas próximas fases do processo.
+OS X & Linux
+
+### API
+
+1. Clone this [repo](https://github.com/tgwow/julio-caesar-cipher.git) in your machine
+`git clone https://github.com/tgwow/julio-caesar-cipher.git`
+2. Navigate to api folder and install dependencies
+`cd api && npm install`
+3. Run api in locahost
+`npm start`
+
+### Backend
+1. Navigate to backend folder and install dependencies
+`cd .. ` 
+`cd backend && npm install`
+2. run backend in locahost
+`npm start`
+
+## How to use
+
+After you started API and backend servers, follow the steps:
+1. Open your browser in this [url](localhost:3000)
+
+2. To get ciphered data move to [ciphered](http://localhost:3000/api/crypt/get)
+
+3. To decipher data and see the results click move to [deciphered](http://localhost:3000/api/crypt/post)
+
+## Contributing
+
+1. Fork it (<https://github.com/tgwow/julio-caesar-cipher/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
