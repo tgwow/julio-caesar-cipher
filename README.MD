@@ -48,22 +48,33 @@ OS X & Linux
 ### API
 
 1. Clone this [repo](https://github.com/tgwow/julio-caesar-cipher.git) in your machine
+
 `git clone https://github.com/tgwow/julio-caesar-cipher.git`
+
 2. Navigate to api folder and install dependencies
+
 `cd api && npm install`
+
 3. Run api in locahost
+
 `npm start`
 
 ### Backend
+
 1. Navigate to backend folder and install dependencies
+
 `cd .. ` 
+
 `cd backend && npm install`
+
 2. run backend in locahost
+
 `npm start`
 
 ## How to use
 
 After you started API and backend servers, follow the steps:
+
 1. Open your browser in this [url](localhost:3000)
 
 2. To get ciphered data move to [ciphered](http://localhost:3000/api/crypt/get)
